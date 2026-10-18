@@ -1029,18 +1029,6 @@ h1 em, h2 em {
   }
 }
 
-.hero-content,
-.hero-content h1,
-.hero-content p,
-.content-section,
-.content-section h2,
-.content-section p,
-.collection-card-text {
-  color: #ffffff;
-  opacity: 1;
-  visibility: visible;
-}
-
 .product-photo {
   display: block;
   width: 100%;
