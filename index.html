@@ -1,0 +1,213 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="カガミクリスタルの美しさと、日本の職人技を紹介します。">
+  <title>KAGAMI CRYSTAL | 光を纏う、日本の美。</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="KAGAMI CRYSTAL ホーム">
+      <span class="brand-mark">K</span>
+      <span class="brand-name">KAGAMI<small>CRYSTAL</small></span>
+    </a>
+
+    <nav class="desktop-nav" aria-label="メインナビゲーション">
+      <a href="#top">ホーム</a>
+      <a href="#heritage">ブランドについて</a>
+      <a href="#collection">コレクション</a>
+      <a href="#craft">職人技</a>
+    </nav>
+
+    <div class="header-actions">
+      <a class="language-switch active" href="#top" lang="ja">JP</a>
+      <span class="language-divider">/</span>
+      <a class="language-switch" href="#top" lang="en">EN</a>
+
+      <button class="menu-toggle" type="button"
+        aria-label="メニューを開く" aria-expanded="false"
+        aria-controls="mobile-menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <nav class="mobile-menu" id="mobile-menu"
+    aria-label="モバイルナビゲーション" inert>
+    <p class="menu-kicker">EXPLORE KAGAMI</p>
+    <a href="#top"><span>01</span>ホーム</a>
+    <a href="#heritage"><span>02</span>ブランドについて</a>
+    <a href="#collection"><span>03</span>コレクション</a>
+    <a href="#craft"><span>04</span>職人技</a>
+    <div class="menu-bottom">
+      <span>KAGAMI CRYSTAL</span>
+      <span>JAPANESE CRAFTSMANSHIP</span>
+    </div>
+  </nav>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-art" aria-hidden="true">
+  <img
+    src="images/hero.jpg"
+    alt=""
+    style="width: 100%; height: 100%; object-fit: contain;"
+  />
+</div>
+
+      <div class="hero-copy">
+        <p class="eyebrow">
+          <span class="eyebrow-line"></span>
+          JAPANESE CRYSTAL GLASS
+        </p>
+        <h1 id="hero-title">光を纏う、<br>日本の<span><em>美。</em></span></h1>
+        <p class="hero-description">
+          光と影が織りなす、繊細な輝き。<br>
+          職人の手から生まれるクリスタルが、<br>
+          日常に特別なひとときを届けます。
+        </p>
+        <a class="outline-link" href="#collection">
+          コレクションを見る <span class="link-arrow">↗</span>
+        </a>
+      </div>
+
+      <div class="hero-bottom">
+        <div class="scroll-indicator">
+          <span></span> SCROLL TO DISCOVER
+        </div>
+        <div class="hero-index">01 <i>/</i> 04</div>
+      </div>
+    </section>
+
+    <section class="intro section-pad reveal" id="heritage">
+      <div class="section-heading">
+        <p class="eyebrow">
+          <span class="eyebrow-line"></span>
+          OUR PHILOSOPHY
+        </p>
+        <h2>受け継がれる技と、<br><em>新しい輝き。</em></h2>
+      </div>
+      <div class="intro-text">
+        <p>
+          透明なガラスの中に宿る、無限の表情。
+          素材と向き合い、細部まで丁寧に仕上げることで、
+          使うたびに新しい美しさと出会える器を目指します。
+        </p>
+        <a class="text-link" href="#craft">
+          職人の技を見る <span>↗</span>
+        </a>
+      </div>
+      <div class="intro-number" aria-hidden="true">K<span>.</span></div>
+    </section>
+
+    <section class="collection section-pad reveal" id="collection">
+      <div class="section-top">
+        <div>
+          <p class="eyebrow">
+            <span class="eyebrow-line"></span>
+            SELECTED COLLECTION
+          </p>
+          <h2>日々を彩る、<em>かたち。</em></h2>
+        </div>
+        <p>光を受けて変わる表情。<br>暮らしに寄り添うクリスタル。</p>
+      </div>
+
+      <div class="collection-grid">
+        <article class="product-card">
+          <div class="product-visual">
+            <span class="product-no">01</span>
+           <img
+  src="images/glass.jpg"
+  alt="クリスタルガラスの商品"
+  style="width: 100%; height: 100%; object-fit: contain;"
+/>
+            <span class="visual-caption">TIMELESS CLARITY</span>
+          </div>
+          <div class="product-info">
+            <div>
+              <h3>タンブラー</h3>
+              <p>TUMBLER</p>
+            </div>
+            <span class="product-arrow">↗</span>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div class="product-visual visual-vase">
+            <span class="product-no">02</span>
+            <img
+  src="images/vese.jpg"
+  alt="クリスタルガラスの花瓶"
+  class="product-photo"
+/>
+            <span class="visual-caption">FORM OF LIGHT</span>
+          </div>
+          <div class="product-info">
+            <div>
+              <h3>フラワーベース</h3>
+              <p>FLOWER VASE</p>
+            </div>
+            <span class="product-arrow">↗</span>
+          </div>
+        </article>
+
+        
+      </div>
+      <p class="disclaimer">※ 商品イメージはデザイン確認用です。</p>
+    </section>
+
+    <section class="craft section-pad reveal" id="craft">
+      <div class="craft-art" aria-hidden="true">
+        <div class="light-ring"></div>
+        <div class="line-crystal"></div>
+        <span class="vertical-label">MADE WITH PRECISION</span>
+      </div>
+      <div class="craft-copy">
+        <p class="eyebrow">
+          <span class="eyebrow-line"></span>
+          THE ART OF CRAFT
+        </p>
+        <h2>手仕事が生む、<br><em>唯一の輝き。</em></h2>
+        <p>
+          細やかな工程の積み重ねが、透明感やきらめきを生み出します。
+          ひとつひとつの形に込められた、丁寧なものづくりの心を感じてください。
+        </p>
+        <a class="outline-link" href="#heritage">
+          ブランドについて <span class="link-arrow">↗</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="closing reveal">
+      <div class="closing-orb" aria-hidden="true"></div>
+      <p class="eyebrow">
+        <span class="eyebrow-line"></span>
+        KAGAMI CRYSTAL
+      </p>
+      <h2>光と暮らす。</h2>
+      <p class="closing-copy">
+        日常のひとときに、静かな輝きを。
+      </p>
+      <a class="outline-link" href="#top">
+        ページの先頭へ <span class="link-arrow">↑</span>
+      </a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand footer-brand" href="#top">
+      <span class="brand-mark">K</span>
+      <span class="brand-name">KAGAMI<small>CRYSTAL</small></span>
+    </a>
+    <p>THE ART OF JAPANESE CRYSTAL GLASS</p>
+    <span class="copyright">© KAGAMI CRYSTAL</span>
+  </footer>
+</body>
+</html>
